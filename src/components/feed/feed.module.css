@@ -1,0 +1,69 @@
+.container{
+    flex: 1;
+    padding: 1rem;
+    margin: 0 2.5rem;
+}
+
+.wrapper{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.videoCard{
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    height: 200px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.videoCard .thumbnail{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.videoCard .channelImg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    align-self: flex-start;
+    margin-right: 8px;
+}
+
+.videoCard .detailVideo{
+   display: flex;
+   align-items: center;
+}
+
+.videoCard .detailVideo .rightSideDetail{
+    display: flex;
+    flex-direction: column;
+}
+
+.channelName{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.viewsAndTime{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.dotIcon{
+    font-size: 12px;
+    margin: 0 6px;
+}
+
+.checkIcon{
+    font-size: 18px;
+    fill: #888;
+}
